@@ -13,7 +13,7 @@ Aspect Ratio -> 3:2
 Gamelist View Style -> Metadata Off
 ```
 
-Detailed view does work, but the battery and wifi icons overlap the boxart. I may or may not fix this later.
+Metadata such as descriptions, ratings, release year etc do work, but the battery and wifi icons overlap the boxart. I may or may not fix this later.
 
 ## Potential Issues
 The system logos each use a .svg file where the size and position are governed in theme.xml, lines 80 and 81. These are hardset to a 3:2 aspect ratio and need adjustment for larger displays. Unfortunately when I initially ported the Switch system view it somehow broke some automatic alignment, and I haven't figured out how to fix it properly.

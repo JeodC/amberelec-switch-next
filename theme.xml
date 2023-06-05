@@ -69,7 +69,7 @@ based on: AMBERELEC-SWITCH and ART BOOK NEXT
 		<include name="cover art" displayName="Cover Art">./_inc/logos/coverartlogos.xml</include>
 		<include name="generic" displayName="Generic">./_inc/logos/genericlogos.xml</include>
     </subset>
-
+	
    <view name="basic,detailed,video">
       <helpsystem name="help">
          <pos>1 1</pos>
@@ -139,14 +139,15 @@ based on: AMBERELEC-SWITCH and ART BOOK NEXT
 
    <view name="system,basic,detailed,video">
       <image name="logo">
-         <origin>0.5 0.5</origin>
-         <color>${logoColor}</color>
-         <zIndex>5</zIndex>
+         <origin>0 0</origin>
+         <pos>0.05 0.1</pos> <!-- Controls the position of the logo in gamelists -->
+         <maxSize>0.4 0.15</maxSize>
       </image>
       <text name="logoText">
-         <origin>0.5 0.5</origin>
-         <color>${logoTextColor}</color>
-         <zIndex>5</zIndex>
+         <pos>-0.25 0.1</pos>
+         <size>0.9 0.075</size>
+         <fontSize>0.06</fontSize>
+         <color>ffffffcc</color>
       </text>
       <textlist name="gamelist">
          <origin>0 0</origin>

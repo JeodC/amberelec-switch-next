@@ -2,7 +2,7 @@
 Imports the Switch system view from AmberELEC-Switch into Art Book Next.
 
 ## Installation
-Use sftp to copy to /storage/.config/emulationstation/themes or use file explorer to copy to \\[DeviceIP]\config\emulationstation\themes
+Use sftp to copy to ``` /storage/.config/emulationstation/themes``` or use file explorer to copy to ``` \\[DeviceIP]\config\emulationstation\themes```
 
 ## Feature Details
 At the moment the theme has been personalized to my own liking. It works well with the following settings:

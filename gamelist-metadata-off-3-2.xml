@@ -15,7 +15,7 @@ Gamelist View Style - Metadata Off & Metadata Off (Zoomed) - 3:2
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.7166666666666667 0.5</pos><!-- 860 400 -->
-         <maxSize ifSubset="gamelist-layout:metadata-off">0.4833333333333333 0.9</maxSize><!-- 580 720 -->
+         <maxSize ifSubset="gamelist-layout:metadata-off">0.4033333333333333 0.75</maxSize><!-- 580 720 -->
          <maxSize ifSubset="gamelist-layout:metadata-off-zoomed">1.111777944486122 1.1725</maxSize><!-- 1482 938 -->
          <zIndex>1</zIndex>
       </image>
@@ -30,7 +30,7 @@ Gamelist View Style - Metadata Off & Metadata Off (Zoomed) - 3:2
       </image>
       <video name="md_video">
          <pos>0.7166666666666667 0.5</pos><!-- 860 400 -->
-         <maxSize ifSubset="gamelist-layout:metadata-off">0.4833333333333333 0.9</maxSize><!-- 580 720 -->
+         <maxSize ifSubset="gamelist-layout:metadata-off">0.4033333333333333 0.75</maxSize><!-- 580 720 -->
          <maxSize ifSubset="gamelist-layout:metadata-off-zoomed">1.111777944486122 1.1725</maxSize><!-- 1482 938 -->
       </video>
    </view>
